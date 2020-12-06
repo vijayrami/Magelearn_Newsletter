@@ -1,0 +1,22 @@
+{
+    "name": "magelearn/module-newsletter",
+    "description": "Generate Random Coupon code with SKU condition for newsletter subscriber users.",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Magelearn\\Newsletter\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
